@@ -1,0 +1,27 @@
+.card {
+  height: 150px;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.card:hover {
+  border-radius: 10px;
+  background-color: rgb(220, 220, 220, 0.2);
+  cursor: pointer;
+}
+
+.imageStyle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-right: 40px;
+}
+
+.contentSection {
+  margin: 10px 0;
+}
+.name {
+  font-size: 25px;
+  font-weight: 900;
+}

@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted black;
+  height: 100vh;
+}
+
+.cardsContainer {
+  max-width: 400px;
+  height: 400px;
+  border: 10px black dotted;
+  overflow: scroll;
+}
